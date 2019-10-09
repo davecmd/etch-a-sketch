@@ -1,12 +1,18 @@
 #container {
     display: grid;
-    
+    margin: 0 auto;
+    margin-top: 50px;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
     width: 500px;
     height: 500px;
 
 }
+
+.header {
+    text-align: center;
+}
+
 .box {
     margin-top: -1px;
     margin-left: -1px;
